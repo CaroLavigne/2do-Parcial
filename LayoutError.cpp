@@ -18,9 +18,9 @@ int main(int nNumberofArgs. char* pszArgs[])
     
     // now store a double into the space 
     // allocated fot an int
-    cout << "\nStoring 13.0 into the location &n" << endl;
+    cout << "\nStoring 13 into the location &n" << endl;
     double* pD = (double*)&n;
-    *pD = 13.0;
+    *pD = 13;
     
     // display the results
     cout << "\nThe final results are:" << endl;
