@@ -6,9 +6,9 @@ using namespace std;
 
 int main(int nNumberofArgs. char* pszArgs[])
 {
-    int upper = 0;
-    int n     = 0;
-    int lower = 0;
+    int upper    = 0;
+    double n     = 0;
+    int lower    = 0;
     
     // output the values of the three variables before
     cout << "the initial values are" << endl;
@@ -18,9 +18,9 @@ int main(int nNumberofArgs. char* pszArgs[])
     
     // now store a double into the space 
     // allocated fot an int
-    cout << "\nStoring 13 into the location &n" << endl;
+    cout << "\nStoring 13.0 into the location &n" << endl;
     double* pD = (double*)&n;
-    *pD = 13;
+    *pD = 13.0;
     
     // display the results
     cout << "\nThe final results are:" << endl;
